@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 import React, {useEffect} from 'react';
 
 import './App.css';
-
+import { FaHeartbeat } from "react-icons/fa";
 
 function App() {
   useEffect(() => {
@@ -17,10 +17,17 @@ function App() {
   return (
     <div className="App" data-aos="zoom-in" >
 
-    
+  
       <Mainpage />
       <div className=' flex justify-center bg-black'>
-      <h1 className=' text-white'>Mathew loves</h1>
+      <h1 className=' text-white'>Mathew loves coding</h1>
+      </div>
+
+      <div className=' text-white text-4xl flex justify-center p-6 space-x-4'>
+      <h1> Mathew </h1>
+     
+      <FaHeartbeat  className=' text-red-600'/>
+      <h1>Hacking</h1>
       </div>
      
     </div>
