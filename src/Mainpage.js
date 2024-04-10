@@ -7,7 +7,7 @@ function Mainpage() {
         <div className=' flex pt'>
             <div className=' w-1/2 h-screen fixed  pt-20 text-start pl-40'>
                 <div className=' space-'>
-                <h1 className=' text-4xl font-bold pt-3 pb-4'>Brittany Chang </h1>
+                <h1 className=' text-4xl font-bold pt-3 pb-4'>Leonard Mathew </h1>
                 <p1 className=' pb-4'> Cyber Security Analyst</p1> <br/>
                 <p2> I build structures and algorithms to protect data</p2>
                 </div>
