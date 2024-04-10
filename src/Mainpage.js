@@ -3,7 +3,7 @@ import Experience from './Experience'
 
 function Mainpage() {
   return (
-    <div className=' text-white'>
+    <div className=' text-white pr-10'>
         <div className=' flex pt'>
             <div className=' w-1/2 h-screen fixed  pt-20 text-start pl-40'>
                 <div className=' space-'>
@@ -40,7 +40,7 @@ function Mainpage() {
 
 
                 </div>
-            <h2>haron</h2>
+    
             </div>
         </div>
     </div>
