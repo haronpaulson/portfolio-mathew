@@ -5,9 +5,11 @@ import Skillbox from './Skillbox';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import React, {useEffect} from 'react';
-
+import Testimonial from './Testimonial';
 import './App.css';
 import { FaHeartbeat } from "react-icons/fa";
+import Contact from './Contact';
+import Last from './Last';
 
 function App() {
   useEffect(() => {
@@ -19,16 +21,14 @@ function App() {
 
   
       <Mainpage />
-      <div className=' flex justify-center bg-black'>
-      <h1 className=' text-white'>Mathew loves coding</h1>
+      <div className=''>
+        <h1>welcome to new cont</h1>
+        <Testimonial />
       </div>
+      <Contact/>
+      <Last />
+   
 
-      <div className=' text-white text-4xl flex justify-center p-6 space-x-4'>
-      <h1> Mathew </h1>
-     
-      <FaHeartbeat  className=' text-red-600'/>
-      <h1>Hacking</h1>
-      </div>
      
     </div>
   );
